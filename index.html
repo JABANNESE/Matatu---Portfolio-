@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matatu Vibes Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+    }
+    h1, h2 {
+      font-family: 'Anton', sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-yellow-400 text-black p-6 shadow-md flex items-center justify-between">
+    <div class="flex items-center space-x-4">
+      <img src="assets/sirwintersparta-logo.png" alt="Sirwintersparta Logo" class="w-16 h-16 rounded-lg border-2 border-black shadow-md">
+      <div>
+        <h1 class="text-3xl md:text-4xl tracking-wider uppercase">Sirwintersparta</h1>
+        <p class="text-sm mt-1 font-semibold">Nairobi Street Culture</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="p-10 text-center bg-gradient-to-br from-black via-gray-900 to-yellow-900">
+    <h2 class="text-3xl md:text-4xl mb-4">Art on Wheels</h2>
+    <p class="text-lg max-w-2xl mx-auto">Capturing the heartbeat of Nairobi's streets — matatus, grafitti, neon lights, and bold expression. This is more than transit. It's a movement.</p>
+  </section>
+
+  <!-- Gallery -->
+  <section class="p-8">
+    <h2 class="text-2xl mb-6 text-yellow-300">Featured Projects</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1623051074200-aaa02ea8c72c" alt="Matatu Art" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">The Neon Beast</h3>
+          <p class="text-sm mt-2 text-gray-300">An ode to Westlands’ late night rides.</p>
+        </div>
+      </div>
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1630171401068-b3270c487a4f" alt="Graffiti Work" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Pablo on Wheels</h3>
+          <p class="text-sm mt-2 text-gray-300">Custom spray art tribute to street legends.</p>
+        </div>
+      </div>
+      <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1630248213531-6f1e0ed1248b" alt="Interior Lights" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Club KBS</h3>
+          <p class="text-sm mt-2 text-gray-300">Inside the sound & color of Nairobi rides.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-black text-white p-10">
+    <h2 class="text-2xl mb-4">Let's Work Together</h2>
+    <p class="mb-4">Have a matatu design, shoot, or brand idea? Hit me up!</p>
+    <a href="mailto:sirwintersparta@example.com" class="inline-block bg-yellow-400 text-black px-6 py-2 rounded-lg hover:bg-yellow-300 transition">Email Me</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center p-4 text-sm text-gray-500">
+    &copy; 2025 Sirwintersparta. Powered by passion for Nairobi streets.
+  </footer>
+
+</body>
+</html>
